@@ -12,20 +12,68 @@
 
 <body>
   <div class="form-wrapper">
-    <div class="form-wraper__left">
+    <div class="form-wrapper__left">
       <div class="form-wrapper__left--sign-in">
         <h2>Don't have an account?</h2>
-        <a href="#" class="button button__ghost">Sign Up</a>
+        <a href="#" class="button button__ghost button__ghost--primary">Sign Up</a>
+      </div>
+      <div class="form-wrapper__left--sign-up">
+        <h2>Already have an account?</h2>
+        <a href="#" class="button button__ghost button__ghost--secondary">Sign In</a>
       </div>
     </div>
-    <div class="form-wraper__right">
+    <div class="form-wrapper__right">
       <div class="form-wrapper__right--sign-in">
         <h1>Sign In</h1>
+        <p>Connect with</p>
+        <div class="social-login">
+          <a href="#" class="social-login__link social-login__link--facebook"><i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="#" class="social-login__link social-login__link--twitter"><i class="fab fa-twitter"></i>
+          </a>
+          <a href="#" class="social-login__link social-login__link--github"><i class="fab fa-github"></i>
+          </a>
+        </div>
+        <div class="divider">
+          <span>or</span>
+        </div>
+        <form class="form">
+          <fieldset>
+            <input type="email" class="form__input" placeholder="Email" />
+            <input type="password" class="form__input" placeholder="Password" />
+            <a href="#" class="button button__primary">Sign In</a>
+          </fieldset>
+          <a href="#" class="forgot-password">Forgot password?</a>
+        </form>
       </div>
-
+      <div class="form-wrapper__right--sign-up">
+        <h1>Sign Up</h1>
+        <p>Connect with</p>
+        <div class="social-login">
+          <a href="#" class="social-login__link social-login__link--facebook"><i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="#" class="social-login__link social-login__link--twitter"><i class="fab fa-twitter"></i>
+          </a>
+          <a href="#" class="social-login__link social-login__link--github"><i class="fab fa-github"></i>
+          </a>
+        </div>
+        <div class="divider">
+          <span>or</span>
+        </div>
+        <form class="form">
+          <fieldset>
+            <input type="text" class="form__input" placeholder="Full Name" />
+            <input type="email" class="form__input" placeholder="Email" />
+            <input type="password" class="form__input" placeholder="Password" />
+            <a href="#" class="button button__secondary">Sign In</a>
+          </fieldset>
+        </form>
+        <a href="#" class="forgot-password">Forgot password?</a>
+      </div>
     </div>
   </div>
   <script src="assets/js/main.js"></script>
+  <script src="https://kit.fontawesome.com/fa92ecf9ef.js"></script>
 </body>
 
 </html>
